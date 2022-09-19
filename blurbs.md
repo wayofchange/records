@@ -1,16 +1,16 @@
 # Our Studio
-  -Where(ish)?
-  -About Us
+  - Where(ish)?
+  - About Us
   
-#Listen
-  -Stream
-  -Marketplace
-  -Our Artists
+# Listen
+  - Stream
+  - Marketplace
+  - Our Artists
   
-#Info
-  -FAQ
-  -Educational Videos
-  -Sagebrush
-  -Patchbay
-  -AdaSound
-  -Way Of Change Records
+# Info
+  - FAQ
+  - Educational Videos
+  - Sagebrush
+  - Patchbay
+  - AdaSound
+  - Way Of Change Records
