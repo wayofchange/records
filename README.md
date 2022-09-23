@@ -3,8 +3,7 @@ Internal studio technologies and data for internal use by WOCR.
 
 ## Our Studio
 - Where(ish)?
-
-We are a studio startup located in Edmonton, in the heart of the plains of Alberta, Canada.
+    We are a studio startup located in Edmonton, in the heart of the plains of Alberta, Canada.
   - About Us
     Way Of Change Records (WOCR) is an independant hub focusing on the production and distribution of music and cultural works, utilising modern technologies to transcend artist-hostile conditions on modern platforms. We intend to enable artists both by providing better profit-models on creative work (through AdaSound etc.), and by recording and producing talent in our in-house studio.
 
