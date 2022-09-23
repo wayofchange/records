@@ -2,7 +2,7 @@
 Internal studio technologies and data for internal use by WOCR.
 
 ## Our Studio
-- Where(ish)?
+- ### Where(ish)?
 
     We are a studio startup located in Edmonton, in the heart of the plains of Alberta, Canada.
 - About Us
