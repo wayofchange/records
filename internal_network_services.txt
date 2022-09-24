@@ -1,7 +1,7 @@
 Internal network service list: 
 
 
-PATCHBAY DRIVE
+PATCHBAY DRIVE / SOCIAL FEED / CALENDAR /TO-DO LIST / EMAIL
 
 patchbaycardano.org
 On initial sign-up, users are given 1G.  Anyone involved directly with WOCR is given more if they want it. 
@@ -14,6 +14,20 @@ Please follow us to share studio-related data.
 REALTIME/INSTANT MESSAGING & REALTIME WORKFLOW
 
 lab.sage3.org
+
+Please create an account.
+
+PRIVATE STREAMING SERVER
+
+studio.sage3.org
+
+Includes our own libraries/outside music. 
+Includes artists who have submitted from outside the studio. 
+Includes studio recordings.
+
+
+
+
 
 
 
