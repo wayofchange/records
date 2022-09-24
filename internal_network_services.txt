@@ -25,6 +25,17 @@ Includes our own libraries/outside music.
 Includes artists who have submitted from outside the studio. 
 Includes studio recordings.
 
+CUSTOM TRANSACTION ENDPOINT FOR ANY BROWSER WALLET
+
+submit.sage3.org
+
+STUDIO-RUN PROXY IPs / DNS NAMES
+
+
+________________
+
+
+
 
 
 
