@@ -1,3 +1,22 @@
+'''
+Asset checker for the label and for the automation of NFT creation.
+Happens to a given submission when it is audio
+Checks to see whether the submission has "cd" bitrate ( > 44.1kHz 16-bit)
+Checks whether tags are present
+    if not
+        query online DBs like musicbrainz. etc using audio signature
+    if nothing is found
+        make a guess by searching for the filename
+        
+    if nothing
+        ask the user
+    save in our internal DB
+
+'''
+
+
+
+
 import subprocess
 from pprint import pprint
 import json
