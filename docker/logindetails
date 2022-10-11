@@ -1,0 +1,7 @@
+IMPORTANT: 
+
+Must be logged in to Docker:
+
+docker login
+user: wayofchange
+password: $wayofchangeB4ch!
