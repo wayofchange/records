@@ -1,0 +1,53 @@
+services:
+  home_db:
+    # We use a mariadb image which supports both amd64 & arm64 architecture
+    image: mariadb:10.6.4-focal
+    container_name: woc_home_db
+    # If you really want to use MySQL, uncomment the following line
+    #image: mysql:8.0.27
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - ${PWD}/woc_home_db_data:/var/lib/mysql:rw
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=B4chmcel!
+      - MYSQL_DATABASE=home_db
+      - MYSQL_USER=elmc
+      - MYSQL_PASSWORD=B4chmcel!
+    expose:
+      - 3306
+      - 33060
+
+  home_wp:
+    image: wordpress:latest
+    container_name: woc_home_wp
+    ports:
+      - 1986:80
+    restart: always
+    environment:
+      - WORDPRESS_DB_HOST=home_db
+      - WORDPRESS_DB_USER=elmc
+      - WORDPRESS_DB_PASSWORD=B4chmcel!
+      - WORDPRESS_DB_NAME=home_db
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 1985:80
+    environment:
+      - PMA_ARBITRARY=1
+
+  woc_streaming:
+    image: woc_stream
+    container_name: woc_streaming
+    restart: always 
+    ports:
+       - 4533:4533
+    command: /opt/navidrome/navidrome
+    volumes: 
+       - ${PWD}/music:/opt/navidrome/music:rw
+
+volumes:
+  woc_home_db_data:
+  music:
