@@ -1,7 +1,7 @@
 services:
   home_db:
     # We use a mariadb image which supports both amd64 & arm64 architecture
-    image: mariadb:10.6.4-focal
+    image: wayofchange/woc_home_db
     container_name: woc_home_db
     # If you really want to use MySQL, uncomment the following line
     #image: mysql:8.0.27
@@ -19,8 +19,8 @@ services:
       - 33060
 
   home_wp:
-    image: wordpress:latest
-    container_name: woc_home_wp
+    image: wayofchange/woc_wp
+    container_name: woc_wp
     ports:
       - 1986:80
     restart: always
@@ -31,7 +31,7 @@ services:
       - WORDPRESS_DB_NAME=home_db
 
   phpmyadmin:
-    image: phpmyadmin
+    image: wayofchange/woc_phpmyadmin
     restart: always
     ports:
       - 1985:80
@@ -39,7 +39,7 @@ services:
       - PMA_ARBITRARY=1
 
   woc_streaming:
-    image: woc_stream
+    image: wayofchange/woc_streaming
     container_name: woc_streaming
     restart: always 
     ports:
