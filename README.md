@@ -21,7 +21,7 @@ Internal studio technologies and data for internal use by WOCR.
   - ### FAQ
   - ### Educational Videos
   - ### Sagebrush
-    Sagebrush Network and Research Group (SNRG) is building the internet of blockchains. SNRG operates a [Cardano stakepool](https://cexplorer.io/pool/pool1dkpt0xwf0wzh0xzkqzxlyygznj9pt8pw6sdze7cs8tdd26hc3v2) and invites all [ADA](https://cardano.org/what-is-ada/)-holders to [delegate](https://cardano.org/stake-pool-delegation/) to it. This will support ongoing development in services that leverage blockchain technologies to empower creators.
+    With the rest of the creators who are tired of a few companies running the online world, Sagebrush Network and Research Group (SNRG) is building a new internet. SNRG operates a [Cardano stakepool](https://cexplorer.io/pool/pool1dkpt0xwf0wzh0xzkqzxlyygznj9pt8pw6sdze7cs8tdd26hc3v2) and invites all [ADA](https://cardano.org/what-is-ada/)-holders to [delegate](https://cardano.org/stake-pool-delegation/) to it. This will support ongoing development in services that leverage blockchain technologies to empower creators.
   - ### Patchbay
   - ### AdaSound
   
